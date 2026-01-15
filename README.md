@@ -122,6 +122,6 @@ This project was developed as part of academic learning and is suitable for:
 👤 Author
 
 * Name: Kavindu Hirushan
-* Github: hirushan083
+* Github: hirushan083//Diabetics_detection_system
   
       
