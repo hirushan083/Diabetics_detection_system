@@ -24,16 +24,14 @@ The final trained model is deployed using an interactive Streamlit web applicati
         Confusion Matrix
         ROC Curve & AUC
 
-* Hyperparameter tuning using GridSearchCV
-* Deployment-ready Streamlit web application
+* Deployment-ready Streamlit web application (currrently working)
 * Model persistence using .pkl files
 
 📂 Project Structure
-* app.py                       # Streamlit application
+
 * diabetes_disease_model.pkl   # Trained ML model
 * scaler.pkl                   # Feature scaler
 * model-columns.pkl            # Model input feature order
-* requirements.txt             # Required libraries
 * README.md                    # Project documentation
 
 📊 Dataset
@@ -60,7 +58,6 @@ Target variable:
 * Feature Scaling
 * Train–Test Split
 * Model Training
-* Hyperparameter Tuning
 * Model Evaluation
 * ROC Curve Analysis
 * Model Deployment (Streamlit)
@@ -75,7 +72,7 @@ Models were evaluated using:
 * ROC Curve & AUC Score (especially for SVM)
 * ROC–AUC was prioritized due to class imbalance in medical datasets.
 
-🌐 Streamlit Web Application
+🌐 Streamlit Web Application (working on it)
 
  The Streamlit interface allows users to:
  
