@@ -7,8 +7,6 @@ import joblib
 
 model = joblib.load("diabetes_disease_model.pkl")
 scaler = joblib.load("scaler.pkl")
-model_columns = joblib.load("model_columns.pkl")
-
 
 # Page config
 
@@ -98,6 +96,7 @@ if st.button("Predict Diabetes"):
 
     if probability is not None:
         st.info(f"Prediction Probability: **{probability:.2%}**")
+
 
 
 
