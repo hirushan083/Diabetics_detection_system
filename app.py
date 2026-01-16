@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import joblib
 
-# Load model, scaler, and columns
+# Load model, scaler
 
 model = joblib.load("diabetes_disease_model.pkl")
 scaler = joblib.load("scaler.pkl")
@@ -96,6 +96,7 @@ if st.button("Predict Diabetes"):
 
     if probability is not None:
         st.info(f"Prediction Probability: **{probability:.2%}**")
+
 
 
 
