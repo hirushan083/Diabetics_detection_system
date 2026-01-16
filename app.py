@@ -66,7 +66,6 @@ input_dict = {
 
 
 # Create DataFrame with correct column order
-
 input_df = pd.DataFrame([input_dict])
 
 # Ensure column order matches training
@@ -74,7 +73,6 @@ input_df = input_df.reindex(columns=model_columns)
 
 
 # Scale numerical features
-
 num_features = ["age", "bmi", "HbA1c_level", "blood_glucose_level"]
 input_df[num_features] = scaler.transform(input_df[num_features])
 
@@ -98,6 +96,7 @@ if st.button("Predict Diabetes"):
 
     if probability is not None:
         st.info(f"Prediction Probability: **{probability:.2%}**")
+
 
 
 
